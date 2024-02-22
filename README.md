@@ -7,7 +7,6 @@
 - Provides a basic "Hello World" web application.
 - Utilizes Flask as the web framework.
 - Deployed within a Minikube Kubernetes cluster.
-- Exposed externally using a NodePort service.
 
 ## Prerequisites
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/) installed and running on your local machine.
