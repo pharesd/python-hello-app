@@ -9,7 +9,7 @@
 - Deployed within a Minikube Kubernetes cluster.
 
 ## Prerequisites
-- [Minikube](https://minikube.sigs.k8s.io/docs/start/) installed and running on your local machine.
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/) installed on your local machine.
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) installed to interact with the Kubernetes cluster.
 
 ## Getting Started
@@ -28,6 +28,7 @@
 3. Apply the Kubernetes manifest files to deploy the application:
 
     ```bash
+    minikube start
     kubectl apply -f deployment.yaml
     ```
 
