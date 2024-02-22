@@ -17,7 +17,7 @@
 1. Clone this repository:
 
     ```bash
-    git clone git@github.com:pharesd/python-hello-app.git
+    git clone https://github.com/pharesd/python-hello-app.git
     ```
 
 2. Navigate to the project directory:
