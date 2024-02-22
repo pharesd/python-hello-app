@@ -32,7 +32,7 @@
     kubectl apply -f deployment.yaml
     ```
 
-4. Access the application using the Ingress URL:
+4. Access the application:
 
     ```bash
     minikube service hello-python-app
