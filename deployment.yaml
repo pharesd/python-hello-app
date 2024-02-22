@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello-python-app-deployment
+  name: hello-python-app
 spec:
   replicas: 3
   selector:
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-python-app-service
+  name: hello-python-app
 spec:
   selector:
     app: hello-python-app
