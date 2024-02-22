@@ -25,10 +25,14 @@
     cd python-hello-app
     ```
 
-3. Apply the Kubernetes manifest files to deploy the application:
-
+3. Start Minikube:
     ```bash
     minikube start
+    ```
+
+4. Apply the Kubernetes manifest files to deploy the application:
+
+    ```bash
     kubectl apply -f deployment.yaml
     ```
 
