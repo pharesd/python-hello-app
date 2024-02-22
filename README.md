@@ -37,8 +37,3 @@
     ```bash
     minikube service hello-python-app
     ```
-
-## Directory Structure
-- `app.py`: Main Python file containing the Flask application.
-- `Dockerfile`: Dockerfile for building the Docker image.
-- `deployment.yaml`: Kubernetes Deployment manifest file.
