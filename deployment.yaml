@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dpo-app
+  name: hello-python-app-deployment
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: dpo-app
+      app: hello-python-app
   template:
     metadata:
       labels:
-        app: dpo-app
+        app: hello-python-app
     spec:
       containers:
-      - name: dpo-app
+      - name: hello-python-app
         image: pharesd/dpo-app:v5
         ports:
         - containerPort: 8080
@@ -22,10 +22,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: dpo-app
+  name: hello-python-app-service
 spec:
   selector:
-    app: dpo-app
+    app: hello-python-app
   ports:
     - protocol: TCP
       port: 8080
